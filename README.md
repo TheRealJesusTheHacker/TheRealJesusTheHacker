@@ -16,6 +16,9 @@ is open-source and free.
 Every release ships with SHA256 checksums and signed build-provenance attestations —
 verify before you run anything.
 
+Every repo runs CodeQL scanning, Dependabot updates, and SHA-pinned CI —
+the supply chain gets the same treatment as the code.
+
 ## Contact
 
 Business inquiries: **Sentinelsafeguard@outlook.com**
