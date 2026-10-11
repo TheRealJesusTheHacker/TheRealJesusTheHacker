@@ -8,7 +8,7 @@ is open-source and free.
 - [🗜️ VectorZip](#️-vectorzip--lossless-file-compressor) — lossless file compressor
 - [🐕 ShibaCuddles](#-shibacuddles--network-scanner--security-testing-suite) — network scanner & security testing suite
 - [🔥 Hellhound.exe](#-hellhoundexe--ransomware-kill-chain-simulator) — ransomware kill-chain visual simulator
-- [🐶 JadeOS](#-jadeos--pentesting-linux-distro) — security & pentesting Linux distro
+- [💎 JadeOS](#-jadeos--pentesting-linux-distro) — security & pentesting Linux distro
   - _Hint: #OpLint-Trap 2026_
 
 ---
@@ -158,7 +158,7 @@ wants to watch a ransomware kill chain unfold with zero risk.
 
 ---
 
-## 🐶 JadeOS — Pentesting Linux Distro
+## 💎 JadeOS — Pentesting Linux Distro
 
 [![release](https://img.shields.io/github/v/tag/TheRealJesusTheHacker/DogOS)](https://github.com/TheRealJesusTheHacker/DogOS/releases)
 
