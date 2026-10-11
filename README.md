@@ -197,6 +197,14 @@ signed build-provenance attestations — verify before you run anything.
 The released tools run CodeQL scanning, Dependabot updates, and SHA-pinned CI —
 the supply chain gets the same treatment as the code.
 
+## Donations
+
+If these tools earned their keep, BTC is welcome:
+
+```
+bc1qvydns2fmyjzj55wzxq7ta28nxdhcmu9l9m6yg0
+```
+
 ## Contact
 
 Business inquiries: **Sentinelsafeguard@outlook.com**
