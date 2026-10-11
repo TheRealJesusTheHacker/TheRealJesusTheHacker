@@ -149,8 +149,8 @@ which performs **real** file deletion/encryption — controlled environments onl
 explicit permission required. The `.exe` is simulation-only.
 
 **Get it:** Windows build from
-[releases](https://github.com/TheRealJesusTheHacker/Hellhound.exe/releases), with a
-signed build-provenance attestation on every release.
+[releases](https://github.com/TheRealJesusTheHacker/Hellhound.exe/releases) — the
+release pipeline generates a signed build-provenance attestation with every build.
 
 **Who it's for:** educators, students, and security-awareness training — anyone who
 wants to watch a ransomware kill chain unfold with zero risk.
@@ -193,8 +193,9 @@ enough.
 
 ## Supply chain
 
-NitroCore, VectorZip and ShibaCuddles releases ship with SHA256 checksums and
-signed build-provenance attestations — verify before you run anything.
+NitroCore, VectorZip and ShibaCuddles releases ship with SHA256 checksums —
+verify before you run anything. Their release pipelines also generate signed
+build-provenance attestations with every build.
 
 The released tools run CodeQL scanning, Dependabot updates, and SHA-pinned CI —
 the supply chain gets the same treatment as the code.
