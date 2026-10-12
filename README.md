@@ -8,7 +8,7 @@ is open-source and free.
 - [🗜️ VectorZip](#️-vectorzip--lossless-file-compressor) — lossless file compressor
 - [🐕 ShibaCuddles](#-shibacuddles--network-scanner--security-testing-suite) — network scanner & security testing suite
 - [🔥 Hellhound.exe](#-hellhoundexe--ransomware-kill-chain-simulator) — ransomware kill-chain visual simulator
-- [💎 JadeOS](#-jadeos--pentesting-linux-distro) — security & pentesting Linux distro
+- [💎 DogOS](#-dogos--pentesting-linux-distro) — security & pentesting Linux distro
   - _Hint: #OpLint-Trap 2026_
 
 ---
@@ -158,21 +158,21 @@ wants to watch a ransomware kill chain unfold with zero risk.
 
 ---
 
-## 💎 JadeOS — Pentesting Linux Distro
+## 💎 DogOS — Pentesting Linux Distro
 
 🚧 **In development** — v0.1.0 "Doberman" prerelease is out now (complete project
 source: live-build tree, helper packages, design spec, security review, OSINT
 inventory). No bootable ISO yet — the full build needs real hardware.
 
-**"All Dogs Go To Heaven."** JadeOS is a security and penetration-testing Linux
+**"All Dogs Go To Heaven."** DogOS is a security and penetration-testing Linux
 distribution built from scratch on Debian testing, with a Kali-style rolling
 toolset. MATE on X11 for maximum tool compatibility, a graphical Calamares
-installer with JadeOS branding, and two flavors: kitchen-sink `full` and live-USB
+installer with DogOS branding, and two flavors: kitchen-sink `full` and live-USB
 friendly `lite`. Release codenames are dog breeds, starting with Doberman.
 
 **What it ships:**
 - **Pentest toolkit** — Kali metapackages (top10 on lite, everything on full), plus
-  JadeOS layers: OSINT, anonymity, AI, dark-web.
+  DogOS layers: OSINT, anonymity, AI, dark-web.
 - **Anonymity** — Tor, I2P, `dogos-ghost` (transparent/per-app routing, killswitch,
   captive-portal hatch), `dogos-leaktest` verification.
 - **Amnesiac live mode** — Tails-style: RAM-only `toram` boot option, always-on MAC
