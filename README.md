@@ -160,7 +160,7 @@ wants to watch a ransomware kill chain unfold with zero risk.
 
 ## 💎 DogOS — Pentesting Linux Distro
 
-🚧 **In development** — v0.1.0 "Doberman" prerelease is out now (complete project
+🚧 **In development** — v0.1.1 "Doberman" prerelease is out now (complete project
 source: live-build tree, helper packages, design spec, security review, OSINT
 inventory). No bootable ISO yet — the full build needs real hardware.
 
