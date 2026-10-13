@@ -149,6 +149,8 @@ Note: the repo also hosts `HellHound.py`, the original terminal-based tool (v2.0
 which performs **real** file deletion/encryption — controlled environments only,
 explicit permission required. The `.exe` is simulation-only.
 
+An education tool: it performs real malware actions, but every action is announced and visualized with warnings first — so you can watch exactly what real malware does, with nothing hidden.
+
 **Get it:** Windows build from
 [releases](https://github.com/TheRealJesusTheHacker/Hellhound.exe/releases) — the
 release pipeline generates a signed build-provenance attestation with every build.
