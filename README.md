@@ -1,19 +1,84 @@
-# Skyler — @JesusTheHacker
+# Skyler Paul Henderson — @JesusTheHacker
 
-I run **Sentinel Safeguard LLC** — cybersecurity, penetration testing, and IT.
-I do the work myself, and I build the tools I use on the job. Everything below
-is open-source and free.
+President of **Sentinel Safeguard LLC**, based in the Kansas City metro.
+Sentinel Safeguard provides cybersecurity, IT services, penetration testing,
+security system installation, and security education. I do the work myself,
+and I build the tools I use on the job — the public ones are indexed below.
 
-- [⚡ NitroCore](#-nitrocore--windows-system-optimizer) — Windows system optimizer
-- [🗜️ VectorZip](#️-vectorzip--lossless-file-compressor) — lossless file compressor
-- [🐕 ShibaCuddles](#-shibacuddles--network-scanner--security-testing-suite) — network scanner & security testing suite
-- [🔥 Hellhound.exe](#-hellhoundexe--ransomware-kill-chain-simulator) — ransomware kill-chain visual simulator
-- [💎 DogOS](#-dogos--pentesting-linux-distro) — security & pentesting Linux distro
+## Services
+
+- **Cybersecurity** — assessments, hardening, and practical security for small
+  businesses and startups.
+- **Penetration testing** — authorized on-site and remote testing, with
+  written authorization in place before any testing begins.
+- **IT services** — support, setup, and troubleshooting.
+- **Installations** — security and low-voltage installation work.
+- **Education** — security training and educational tools, including HackProof
+  (below).
+
+## Projects
+
+- [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows
+- [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (in development)
+- [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
+- [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
+- [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
+- [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education)
+- [DogOS](https://github.com/TheRealJesusTheHacker/DogOS) — security & pentesting Linux distro
   - _Hint: #OpLint-Trap 2026_
+- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: course & game
+- [Cyra-Helper](https://github.com/TheRealJesusTheHacker/Cyra-Helper) — donate idle GPU time to a local AI
+- [sentinel-live](https://github.com/TheRealJesusTheHacker/sentinel-live) — server side of the Sentinel Safeguard website
+- [lint-trap](https://github.com/TheRealJesusTheHacker/lint-trap) — household notes on dryer lint trap maintenance
 
 ---
 
-## ⚡ NitroCore — Windows System Optimizer
+## Argus.exe — Antivirus & Malware Detection for Windows
+
+Sentinel Safeguard's antivirus and malware detector for Windows — "all eyes,
+all detection." Built for home users, single-PC shops, and small businesses
+that need real protection without a per-seat enterprise contract.
+
+**What it does:**
+- **Signature scanning** — known-malware detection against a curated signature
+  database (hashes and pattern rules).
+- **Heuristic & behavioral watch** — catches unknown threats by what they do:
+  suspicious process chains, persistence tricks, ransomware-style file churn.
+- **Real-time protection** — files are watched as they are written, downloaded,
+  or executed.
+- **Quarantine** — detected threats are isolated, never silently deleted;
+  review, restore, or remove on your terms.
+- **Plain-language reporting** — every detection explained in words a person
+  can act on, with a full scan history.
+
+**Get it:** Argus ships as a single self-installing `Argus.exe` from
+[releases](https://github.com/TheRealJesusTheHacker/Argus.exe/releases) — it
+installs itself, sets up its always-on protection service, and registers with
+Windows Security Center. A portable edition (ArgusPortable.zip) runs without
+installing. Windows 10/11.
+
+---
+
+## Charon.exe — Windows Driver Updater
+
+**In development.** Charon ferries every driver on a Windows PC from the old
+version to the new one — carefully, one crossing at a time. Every update run
+follows the same fixed order:
+
+1. **Scan** — inventory every installed driver and flag the outdated ones.
+2. **Download** — fetch the updates; nothing is applied yet.
+3. **Restore point** — a System Restore point is created *and verified* before
+   any update is applied. This step is non-negotiable: if the restore point
+   cannot be confirmed, no update runs.
+4. **Apply** — install the updates one at a time, verifying the device still
+   works after each one.
+
+Driver updates sourced through the Windows Update Agent API — never
+driver-download sites.
+
+---
+
+## NitroCore — Windows System Optimizer
 
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/NitroCore)](https://github.com/TheRealJesusTheHacker/NitroCore/releases)
 
@@ -57,7 +122,7 @@ fast, anyone with a slow Windows box who doesn't want to hand-edit the registry.
 
 ---
 
-## 🗜️ VectorZip — Lossless File Compressor
+## VectorZip — Lossless File Compressor
 
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/VectorZip)](https://github.com/TheRealJesusTheHacker/VectorZip/releases)
 
@@ -93,7 +158,7 @@ want a clean compression API; anyone who's been burned by silent corruption.
 
 ---
 
-## 🐕 ShibaCuddles — Network Scanner & Security Testing Suite
+## ShibaCuddles — Network Scanner & Security Testing Suite
 
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/ShibaCuddles)](https://github.com/TheRealJesusTheHacker/ShibaCuddles/releases)
 
@@ -127,7 +192,7 @@ permission to test is illegal.
 
 ---
 
-## 🔥 Hellhound.exe — Ransomware Kill-Chain Simulator
+## Hellhound.exe — Ransomware Kill-Chain Simulator
 
 A blood-red PyQt5 visual simulation of a ransomware kill chain — **infiltration →
 recon → encryption → deletion → ransom note** — played out against 256 virtual
@@ -160,9 +225,9 @@ wants to watch a ransomware kill chain unfold with zero risk.
 
 ---
 
-## 💎 DogOS — Pentesting Linux Distro
+## DogOS — Pentesting Linux Distro
 
-🚧 **In development** — v0.1.1 "Doberman" prerelease is out now (complete project
+**In development** — v0.1.1 "Doberman" prerelease is out now (complete project
 source: live-build tree, helper packages, design spec, security review, OSINT
 inventory). No bootable ISO yet — the full build needs real hardware.
 
@@ -191,6 +256,44 @@ rather run an OS that was hardened on purpose instead of hoping the defaults are
 enough.
 
 ---
+
+## HackProof — Cybersecurity Education
+
+A cybersecurity-education product from Sentinel Safeguard, in two halves:
+
+- **The Course** — a 19-module defensive field manual covering passwords and
+  MFA, phishing, social engineering, device security, scams, and recovery.
+  The first modules are free; the rest are premium.
+- **The Game** — *You Are The Scammer*: a single-player browser game with 8
+  scenarios where you play the attacker to learn how each scam works, and
+  every scenario closes with a Defense Brief on how to spot and stop it.
+
+**Play it:** https://therealjesusthehacker.github.io/HackProof/
+
+---
+
+## Cyra-Helper — Donate Idle GPU Time
+
+A small Windows background worker that lends your PC's idle GPU to render
+images for Cyra, a local AI its owner runs on his own hardware. It only takes
+work when your PC is actually idle, stops picking up new work the moment you
+return, and can be paused at any time. It receives render prompts and returns
+finished images — it never sees your files. Joining requires
+[Tailscale](https://tailscale.com/download) (free).
+
+**Get it:** download the latest zip from
+[releases](https://github.com/TheRealJesusTheHacker/Cyra-Helper/releases),
+unzip, and run `CyraHelper.exe`.
+
+---
+
+## sentinel-live — Sentinel Safeguard Website Server
+
+The server side of the Sentinel Safeguard website, packaged as a single
+self-contained Windows executable. It serves the public site, a live cyber
+threat map fed by the SANS DShield sensor network, a news hub, and the
+website's contact, help-ticket, and newsletter form APIs backed by an
+embedded SQLite database.
 
 ## Supply chain
 
