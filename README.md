@@ -236,6 +236,8 @@ permission to test is illegal.
 
 ## Hellhound.exe — Ransomware Kill-Chain Simulator
 
+[![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Hellhound.exe)](https://github.com/TheRealJesusTheHacker/Hellhound.exe/releases)
+
 A blood-red PyQt5 visual simulation of a ransomware kill chain — **infiltration →
 recon → encryption → deletion → ransom note** — played out against 256 virtual
 files (~1 GB) across fake system directories in an in-memory filesystem.
