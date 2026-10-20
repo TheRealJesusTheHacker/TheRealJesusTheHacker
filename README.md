@@ -48,6 +48,8 @@ before reuse.
 
 ## Argus.exe — Antivirus & Malware Detection for Windows and Linux
 
+[![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Argus.exe)](https://github.com/TheRealJesusTheHacker/Argus.exe/releases)
+
 Sentinel Safeguard's antivirus and malware detector — "all eyes,
 all detection." **Current release: v1.2.3.** Built for home users, single-PC
 shops, and small businesses that need real protection without a per-seat
