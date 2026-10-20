@@ -171,7 +171,7 @@ what's running — then hands you the results in JSON, CSV, XML, or plain text.
   MAC detection.
 - **Port scanning** — TCP 1–65535, UDP detection, banner grabbing, service version
   detection.
-- **Advanced analysis** — service fingerprinting (20+ services), TTL-based OS
+- **Advanced analysis** — service fingerprinting (18 known service signatures), TTL-based OS
   fingerprinting, vulnerability detection, real-time statistics.
 - **GUI dashboard** — live results table with alive/down indicators, card-based
   stats (hosts scanned, hosts alive, open ports), color-coded activity log,
@@ -261,9 +261,9 @@ enough.
 
 A cybersecurity-education product from Sentinel Safeguard, in two halves:
 
-- **The Course** — a 19-module defensive field manual covering passwords and
+- **The Course** — a 46-module defensive field manual covering passwords and
   MFA, phishing, social engineering, device security, scams, and recovery.
-  The first modules are free; the rest are premium.
+  The first 3 modules are free; the rest are premium.
 - **The Game** — *You Are The Scammer*: a single-player browser game with 8
   scenarios where you play the attacker to learn how each scam works, and
   every scenario closes with a Defense Brief on how to spot and stop it.
