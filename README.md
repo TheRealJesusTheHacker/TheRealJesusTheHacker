@@ -471,6 +471,13 @@ build-provenance attestations with every build.
 The released tools run CodeQL scanning, Dependabot updates, and SHA-pinned CI —
 the supply chain gets the same treatment as the code.
 
+## Credentials
+
+- **ASSE 5110** — Backflow Prevention Assembly Tester, Cert No. 62362
+  (expires Nov 30, 2027); listed on the Missouri DNR tester list.
+- **CompTIA Security+ (SY0-701)** — in progress; exam targeted for
+  December 2026.
+
 ## Donations
 
 If these tools earned their keep, BTC is welcome:
