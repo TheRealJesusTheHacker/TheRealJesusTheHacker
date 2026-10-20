@@ -20,6 +20,7 @@ and I build the tools I use on the job — the public ones are indexed below.
 
 - [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.3)
 - [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.0 — five-phase roadmap complete)
+- [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.1)
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
 - [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
@@ -372,6 +373,26 @@ carries the optional HackProof payments pass-through — off by default —
 which can front the HackProof payments service (automated Bitcoin checkout
 and certificate issuance) so that service never needs a public port of its
 own; its admin and review routes stay reachable only on the machine itself.
+
+## Aegis.exe — File Encryption & Password Manager
+
+Sentinel's Windows shield: file encryption and a password manager in one
+tool. Tagline: **"It does not open."** **Current release: v1.0.1.**
+
+- **File side** — AES-256 vaults, lock-and-send single-file encryption, and
+  a strongbox for codes, keys, and notes. Aegis also encrypts Lazarus
+  backups.
+- **Password side** — a local-first encrypted credential vault
+  (Argon2id + AES-256-GCM), no forced cloud. Setup issues a printable
+  recovery key, with the warning stated plainly: lose the master password
+  and it does not open.
+
+**Get it:** `Aegis.exe` installer or `AegisPortable.zip` (no install) from
+[releases](https://github.com/TheRealJesusTheHacker/Aegis.exe/releases),
+with `SHA256SUMS.txt`. 471 tests; v1.0.0 passed an independent security
+audit gate before release. Part of the Technician's Toolkit. Proprietary.
+
+---
 
 ## Supply chain
 
