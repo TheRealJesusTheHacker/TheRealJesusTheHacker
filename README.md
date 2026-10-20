@@ -15,6 +15,10 @@ and I build the tools I use on the job — the public ones are indexed below.
 - **Installations** — security and low-voltage installation work.
 - **Education** — security training and educational tools, including HackProof
   (below).
+- **Data recovery & restoration** — file and folder restoration, undelete,
+  and salvage from failing drives (Lazarus).
+- **Secure drive destruction** — verified sanitization for decommissioned
+  drives, with certificates of destruction (Beerus).
 
 ## Projects
 
