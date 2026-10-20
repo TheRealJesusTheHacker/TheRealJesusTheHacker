@@ -21,6 +21,7 @@ and I build the tools I use on the job — the public ones are indexed below.
 - [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.3)
 - [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.0 — five-phase roadmap complete)
 - [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.1)
+- [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
 - [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
@@ -373,6 +374,28 @@ carries the optional HackProof payments pass-through — off by default —
 which can front the HackProof payments service (automated Bitcoin checkout
 and certificate issuance) so that service never needs a public port of its
 own; its admin and review routes stay reachable only on the machine itself.
+
+## Lazarus.exe — Backup, Restore & Recovery
+
+**"Dead isn't gone."** Sentinel's Windows backup, restore, and recovery
+tool — part of the medic-kit line. **In active development:** the four
+core phases are complete (411 tests); packaging and the first release
+come next.
+
+1. **Restoration (the flagship)** — restore files, folders, or everything
+   by date from a versioned snapshot store; undelete with honest per-file
+   odds; clone and salvage data off dying drives.
+2. **Decrypt / unlock** — owner-key BitLocker unlock through Windows' own
+   tools (the key is never stored or logged), plus known published
+   decryptors for ransomware families where they exist — odds stated up
+   front, never oversold.
+3. **Backup** — scheduled, versioned by date, local-first, no forced
+   cloud, with loud honest status.
+
+[Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) —
+part of the Technician's Toolkit. Proprietary.
+
+---
 
 ## Aegis.exe — File Encryption & Password Manager
 
