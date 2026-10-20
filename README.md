@@ -23,6 +23,7 @@ and I build the tools I use on the job — the public ones are indexed below.
 - [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.1)
 - [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery
 - [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.4.0)
+- [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v0.2.0)
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
 - [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
@@ -375,6 +376,21 @@ carries the optional HackProof payments pass-through — off by default —
 which can front the HackProof payments service (automated Bitcoin checkout
 and certificate issuance) so that service never needs a public port of its
 own; its admin and review routes stay reachable only on the machine itself.
+
+## Technician's Toolkit — The Medic-Kit Bundle
+
+Every Sentinel medic-kit tool in one USB-carried suite — **Security For
+Everyone.** **Current bundle: v0.2.0.**
+
+One zip opens to **one folder** holding every portable edition — Argus,
+Charon, Lazarus, Beerus, Aegis, NitroCore, VectorZip — plus a suite
+application that gives one GUI over the whole kit. The launcher is a
+front door, never a replacement: every tool still stands on its own.
+(Bundle 1.0 is reserved for the complete kit.)
+
+[Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit)
+
+---
 
 ## Beerus.exe — Secure Drive Destruction
 
