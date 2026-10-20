@@ -464,8 +464,8 @@ audit gate before release. Part of the Technician's Toolkit. Proprietary.
 
 ## Supply chain
 
-NitroCore, VectorZip and ShibaCuddles releases ship with SHA256 checksums —
-verify before you run anything. Their release pipelines also generate signed
+Argus, HackProof, Aegis, NitroCore, VectorZip and ShibaCuddles releases
+ship with SHA256 checksums — verify before you run anything. Their release pipelines also generate signed
 build-provenance attestations with every build.
 
 The released tools run CodeQL scanning, Dependabot updates, and SHA-pinned CI —
