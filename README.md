@@ -4,6 +4,8 @@ President of **Sentinel Safeguard LLC**, based in the Kansas City metro.
 Sentinel Safeguard provides cybersecurity, IT services, penetration testing,
 security system installation, and security education. I do the work myself,
 and I build the tools I use on the job — the public ones are indexed below.
+The medic-kit line follows one rule: **Security For Everyone** — premium
+tools, plain language, honest limits.
 
 ## Services
 
