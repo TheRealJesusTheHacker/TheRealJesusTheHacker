@@ -471,6 +471,12 @@ build-provenance attestations with every build.
 The released tools run CodeQL scanning, Dependabot updates, and SHA-pinned CI —
 the supply chain gets the same treatment as the code.
 
+## GitHub Achievements
+
+- **Pull Shark** — merged pull requests, starting with the NitroCore
+  winget package submissions.
+- **Quickdraw** — an issue opened and closed inside five minutes.
+
 ## Credentials
 
 - **ASSE 5110** — Backflow Prevention Assembly Tester, Cert No. 62362
