@@ -18,26 +18,34 @@ and I build the tools I use on the job — the public ones are indexed below.
 
 ## Projects
 
-- [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows
-- [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (in development)
+- [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.3)
+- [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.0 — five-phase roadmap complete)
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
 - [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
 - [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education)
 - [DogOS](https://github.com/TheRealJesusTheHacker/DogOS) — security & pentesting Linux distro
   - _Hint: #OpLint-Trap 2026_
-- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: course & game
+- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: 46-module course, game & Windows app (app-v1.0.2)
 - [Cyra-Helper](https://github.com/TheRealJesusTheHacker/Cyra-Helper) — donate idle GPU time to a local AI
-- [sentinel-live](https://github.com/TheRealJesusTheHacker/sentinel-live) — server side of the Sentinel Safeguard website
+- [sentinel-live](https://github.com/TheRealJesusTheHacker/sentinel-live) — server side of the Sentinel Safeguard website (v1.0.3)
 - [lint-trap](https://github.com/TheRealJesusTheHacker/lint-trap) — household notes on dryer lint trap maintenance
+
+Licensing varies by project and is stated in each repository: some tools
+below are open source (noted per project), while HackProof and most
+Sentinel Safeguard products are proprietary. Check each repo's `LICENSE`
+before reuse.
 
 ---
 
-## Argus.exe — Antivirus & Malware Detection for Windows
+## Argus.exe — Antivirus & Malware Detection for Windows and Linux
 
-Sentinel Safeguard's antivirus and malware detector for Windows — "all eyes,
-all detection." Built for home users, single-PC shops, and small businesses
-that need real protection without a per-seat enterprise contract.
+Sentinel Safeguard's antivirus and malware detector — "all eyes,
+all detection." **Current release: v1.2.3.** Built for home users, single-PC
+shops, and small businesses that need real protection without a per-seat
+enterprise contract. v1.2.3 ships the fixes from the fleet-wide
+bug-and-security audit of 2026-10-19 — no new features; the same product,
+made harder to fool and harder to break.
 
 **What it does:**
 - **Signature scanning** — known-malware detection against a curated signature
@@ -51,30 +59,52 @@ that need real protection without a per-seat enterprise contract.
 - **Plain-language reporting** — every detection explained in words a person
   can act on, with a full scan history.
 
-**Get it:** Argus ships as a single self-installing `Argus.exe` from
-[releases](https://github.com/TheRealJesusTheHacker/Argus.exe/releases) — it
-installs itself, sets up its always-on protection service, and registers with
-Windows Security Center. A portable edition (ArgusPortable.zip) runs without
-installing. Windows 10/11.
+**Get it:** Argus ships in two editions from
+[releases](https://github.com/TheRealJesusTheHacker/Argus.exe/releases),
+with `SHA256SUMS.txt` alongside every release. On Windows, a single
+self-installing `Argus.exe` installs itself, sets up its always-on
+protection service, and registers with Windows Security Center; a portable
+edition (ArgusPortable.zip) runs without installing. Windows 10/11. On
+Linux, `Argus.deb` serves Debian-based systems — Kali Linux, Parrot OS,
+Debian, and Ubuntu — with a systemd protection service and the same
+detection engine, heuristics, and encrypted vault.
 
 ---
 
 ## Charon.exe — Windows Driver Updater
 
-**In development.** Charon ferries every driver on a Windows PC from the old
-version to the new one — carefully, one crossing at a time. Every update run
-follows the same fixed order:
+**v1.0.0 — the five-phase roadmap is complete.** Charon ferries every driver
+on a Windows PC from the old version to the new one — carefully, one crossing
+at a time. Nobody crosses without paying the toll, and the toll is a restore
+point: created *and verified* before any update is applied. If the toll
+cannot be paid, the ferry does not move.
+
+Every update run follows the same fixed order:
 
 1. **Scan** — inventory every installed driver and flag the outdated ones.
-2. **Download** — fetch the updates; nothing is applied yet.
-3. **Restore point** — a System Restore point is created *and verified* before
-   any update is applied. This step is non-negotiable: if the restore point
-   cannot be confirmed, no update runs.
+   The scan is read-only: it downloads, installs, and changes nothing.
+2. **Download** — stage the updates into the Windows Update cache; nothing
+   is applied yet. Every plan is revalidated against a fresh search — a
+   withdrawn update is never silently substituted.
+3. **Restore point** — a System Restore point is created *and verified* by
+   enumeration, carrying a marker unique to that run. This step is
+   non-negotiable: if the restore point cannot be confirmed, no update runs.
 4. **Apply** — install the updates one at a time, verifying the device still
-   works after each one.
+   works after each one. A restart a driver needs is reported, never forced.
 
-Driver updates sourced through the Windows Update Agent API — never
+Driver updates are sourced through the Windows Update Agent API — never
 driver-download sites.
+
+**The interface:** a premium, futuristic, animated HUD-style GUI (PySide6) —
+the whole crossing as one guided journey, in plain language, with designed
+screens for every failure state. A full CLI covers the same pipeline
+(`scan`, `download`, `toll`, `apply`, `gui`).
+
+**Get it:** Charon runs from source today — there is no installer yet.
+Clone [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) and
+run `python -m charon gui` (or the CLI above). The full test suite — 217
+tests — is green; Windows on-hardware verification comes next. Proprietary
+— see the repo's `LICENSE`.
 
 ---
 
@@ -259,16 +289,58 @@ enough.
 
 ## HackProof — Cybersecurity Education
 
-A cybersecurity-education product from Sentinel Safeguard, in two halves:
+A commercial cybersecurity-education product from Sentinel Safeguard, in
+three parts:
 
-- **The Course** — a 46-module defensive field manual covering passwords and
-  MFA, phishing, social engineering, device security, scams, and recovery.
-  The first 3 modules are free; the rest are premium.
+- **The Course** — a 46-module defensive field manual across 7 tracks,
+  covering passwords and MFA, phishing, social engineering, device
+  security, scams, and recovery — plus a professional-pathways track built
+  on the Sentinel Safeguard Credential Standard. Every module states its
+  learning objectives and carries worked case breakdowns, step-by-step
+  procedures, a hands-on exercise, and a knowledge check. The first 3
+  modules are free; the rest are premium.
 - **The Game** — *You Are The Scammer*: a single-player browser game with 8
   scenarios where you play the attacker to learn how each scam works, and
   every scenario closes with a Defense Brief on how to spot and stop it.
+- **The Windows app** — the same course on your PC, working offline.
+  **Current app release: app-v1.0.2** (`HackProof.exe`, with
+  `SHA256SUMS.txt`, from
+  [releases](https://github.com/TheRealJesusTheHacker/HackProof/releases)).
 
-**Play it:** https://therealjesusthehacker.github.io/HackProof/
+**The final exam and certificate:** finish the course and sit a 90-question
+final exam (pass at 80%). The Sentinel Safeguard Certificate of Completion
+generates on the page, and the official countersigned certificate is emailed
+to you and checkable by anyone at the public verify page. The Sentinel
+green certificate design is applied consistently across the website, the
+app, and the certificates themselves.
+
+Honest limits, stated in the repo: the course teaches the knowledge domains
+the certifications in the Sentinel credential standard test, and builds
+toward them — it does not confer any certification or license, and never
+guarantees passing an external exam.
+
+**Play it / start the course:** https://therealjesusthehacker.github.io/HackProof/
+
+Proprietary — see the repo's `LICENSE`.
+
+---
+
+## Cyra — Private Local AI
+
+Cyra is a Jarvis-style AI that runs 100% locally on my own machines —
+Windows, Parrot Linux, and Android bodies sharing one mind and one memory,
+with no cloud and no accounts. She is a private, single-owner system: the
+repository is private, and she is not offered for public download or use.
+
+Two rules define the project. **Owner-only control:** she takes control
+commands from exactly one human — guests get conversation, never control.
+**The iron rule:** her memory can never be deleted by an update; updates
+snapshot her data and verify it afterward, and any difference fails the
+update. Debugging ships permanently in every release.
+
+Cyra is in active development. The public way to help her is
+[Cyra-Helper](https://github.com/TheRealJesusTheHacker/Cyra-Helper) (next
+section), which donates idle GPU time to her rendering.
 
 ---
 
@@ -290,10 +362,16 @@ unzip, and run `CyraHelper.exe`.
 ## sentinel-live — Sentinel Safeguard Website Server
 
 The server side of the Sentinel Safeguard website, packaged as a single
-self-contained Windows executable. It serves the public site, a live cyber
-threat map fed by the SANS DShield sensor network, a news hub, and the
-website's contact, help-ticket, and newsletter form APIs backed by an
-embedded SQLite database.
+self-contained Windows executable. **Current release: v1.0.3**
+(`SentinelLive.exe`, with `SHA256SUMS.txt`, from
+[releases](https://github.com/TheRealJesusTheHacker/sentinel-live/releases)).
+It serves the public site, a live cyber threat map fed by the SANS DShield
+sensor network, a news hub, and the website's contact, help-ticket, and
+newsletter form APIs backed by an embedded SQLite database. v1.0.3 also
+carries the optional HackProof payments pass-through — off by default —
+which can front the HackProof payments service (automated Bitcoin checkout
+and certificate issuance) so that service never needs a public port of its
+own; its admin and review routes stay reachable only on the machine itself.
 
 ## Supply chain
 
