@@ -22,23 +22,30 @@ and I build the tools I use on the job — the public ones are indexed below.
 
 ## Projects
 
+### Security & education
+
 - [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.3)
+- [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
+- [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education)
+- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: 46-module course, game & Windows app (app-v1.0.2)
+- [DogOS](https://github.com/TheRealJesusTheHacker/DogOS) — security & pentesting Linux distro
+  - _Hint: #OpLint-Trap 2026_
+
+### The medic-kit line
+
 - [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.0 — five-phase roadmap complete)
 - [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.1)
 - [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery
 - [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.4.0)
-- [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v0.2.0)
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
-- [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
-- [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education)
-- [DogOS](https://github.com/TheRealJesusTheHacker/DogOS) — security & pentesting Linux distro
-  - _Hint: #OpLint-Trap 2026_
-- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: 46-module course, game & Windows app (app-v1.0.2)
+- [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v0.2.0)
+
+### Systems & AI
+
 - [Cyra-Helper](https://github.com/TheRealJesusTheHacker/Cyra-Helper) — donate idle GPU time to a local AI
 - [sentinel-live](https://github.com/TheRealJesusTheHacker/sentinel-live) — server side of the Sentinel Safeguard website (v1.0.3)
 - [lint-trap](https://github.com/TheRealJesusTheHacker/lint-trap) — household notes on dryer lint trap maintenance
-
 Licensing varies by project and is stated in each repository: some tools
 below are open source (noted per project), while HackProof and most
 Sentinel Safeguard products are proprietary. Check each repo's `LICENSE`
