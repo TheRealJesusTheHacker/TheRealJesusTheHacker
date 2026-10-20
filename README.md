@@ -83,6 +83,8 @@ detection engine, heuristics, and encrypted vault.
 
 ## Charon.exe — Windows Driver Updater
 
+[![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Charon.exe)](https://github.com/TheRealJesusTheHacker/Charon.exe/releases)
+
 **v1.0.0 — the five-phase roadmap is complete.** Charon ferries every driver
 on a Windows PC from the old version to the new one — carefully, one crossing
 at a time. Nobody crosses without paying the toll, and the toll is a restore
