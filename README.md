@@ -38,10 +38,10 @@ tools, plain language, honest limits.
 - [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.3 — five-phase roadmap complete)
 - [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.3)
 - [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery (v1.0.2)
-- [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.4.0)
+- [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.6.2)
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
-- [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v0.2.0)
+- [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v1.0.0)
 
 ### Systems & AI
 
@@ -403,13 +403,13 @@ own; its admin and review routes stay reachable only on the machine itself.
 ## Technician's Toolkit — The Medic-Kit Bundle
 
 Every Sentinel medic-kit tool in one USB-carried suite — **Security For
-Everyone.** **Current bundle: v0.2.0.**
+Everyone.** **Current bundle: v1.0.0.**
 
 One zip opens to **one folder** holding every portable edition — Argus,
 Charon, Lazarus, Beerus, Aegis, NitroCore, VectorZip — plus a suite
 application that gives one GUI over the whole kit. The launcher is a
 front door, never a replacement: every tool still stands on its own.
-(Bundle 1.0 is reserved for the complete kit.)
+(Bundle 1.0 — the complete kit — shipped 2026-10-20.)
 
 [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit)
 
@@ -418,7 +418,7 @@ front door, never a replacement: every tool still stands on its own.
 ## Beerus.exe — Secure Drive Destruction
 
 Named for the God of Destruction: verified drive sanitization for
-decommissioning, part of the medic-kit line. **Current release: v0.4.0.**
+decommissioning, part of the medic-kit line. **Current release: v0.6.2.**
 
 - **Three target modes** — whole drives; specific files/folders (data
   overwritten and verified *before* the entry is removed — never mere
