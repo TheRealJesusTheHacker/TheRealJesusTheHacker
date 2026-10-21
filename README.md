@@ -35,7 +35,7 @@ tools, plain language, honest limits.
 
 ### The medic-kit line
 
-- [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.0 — five-phase roadmap complete)
+- [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.3 — five-phase roadmap complete)
 - [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.1)
 - [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery
 - [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.4.0)
@@ -96,7 +96,7 @@ detection engine, heuristics, and encrypted vault.
 
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Charon.exe)](https://github.com/TheRealJesusTheHacker/Charon.exe/releases)
 
-**v1.0.0 — the five-phase roadmap is complete.** Charon ferries every driver
+**v1.0.3 — the five-phase roadmap is complete.** Charon ferries every driver
 on a Windows PC from the old version to the new one — carefully, one crossing
 at a time. Nobody crosses without paying the toll, and the toll is a restore
 point: created *and verified* before any update is applied. If the toll
@@ -123,11 +123,13 @@ the whole crossing as one guided journey, in plain language, with designed
 screens for every failure state. A full CLI covers the same pipeline
 (`scan`, `download`, `toll`, `apply`, `gui`).
 
-**Get it:** Charon runs from source today — there is no installer yet.
-Clone [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) and
-run `python -m charon gui` (or the CLI above). The full test suite — 217
-tests — is green; Windows on-hardware verification comes next. Proprietary
-— see the repo's `LICENSE`.
+**Get it:** download `CharonPortable.zip` from
+[releases](https://github.com/TheRealJesusTheHacker/Charon.exe/releases)
+(v1.0.3, with `SHA256SUMS.txt`) — unzip it anywhere, open the `Charon`
+folder inside, and run `Charon.exe`. No install, and no Python on the
+machine; a single self-installing `Charon.exe` stays on the roadmap.
+The full test suite — 231 tests — is green; Windows on-hardware
+verification comes next. Proprietary — see the repo's `LICENSE`.
 
 ---
 
