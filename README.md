@@ -477,7 +477,7 @@ tool. Tagline: **"It does not open."** **Current release: v1.0.3.**
 
 **Get it:** `Aegis.exe` installer or `AegisPortable.zip` (no install) from
 [releases](https://github.com/TheRealJesusTheHacker/Aegis.exe/releases),
-with `SHA256SUMS.txt`. 471 tests; v1.0.0 passed an independent security
+with `SHA256SUMS.txt`. 510 tests; v1.0.0 passed an independent security
 audit gate before release. Part of the Technician's Toolkit. Proprietary.
 
 ---
