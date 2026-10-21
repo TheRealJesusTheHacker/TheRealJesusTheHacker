@@ -29,7 +29,7 @@ tools, plain language, honest limits.
 - [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.6)
 - [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
 - [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education)
-- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: 46-module course, game & Windows app (app-v1.0.2)
+- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: 46-module course, game & Windows app (app-v1.0.4)
 - [DogOS](https://github.com/TheRealJesusTheHacker/DogOS) — security & pentesting Linux distro
   - _Hint: #OpLint-Trap 2026_
 
@@ -328,7 +328,7 @@ three parts:
   scenarios where you play the attacker to learn how each scam works, and
   every scenario closes with a Defense Brief on how to spot and stop it.
 - **The Windows app** — the same course on your PC, working offline.
-  **Current app release: app-v1.0.2** (`HackProof.exe`, with
+  **Current app release: app-v1.0.4** (`HackProof.exe`, with
   `SHA256SUMS.txt`, from
   [releases](https://github.com/TheRealJesusTheHacker/HackProof/releases)).
 
