@@ -435,7 +435,7 @@ decommissioning, part of the medic-kit line. **Current release: v0.6.2.**
 
 **Get it:** Beerus Portable from
 [releases](https://github.com/TheRealJesusTheHacker/Beerus.exe/releases).
-331 tests, green on Linux and Windows CI. Proprietary.
+705 tests, green on Linux and Windows CI. Proprietary.
 
 ---
 
