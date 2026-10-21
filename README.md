@@ -37,7 +37,7 @@ tools, plain language, honest limits.
 
 - [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.3 — five-phase roadmap complete)
 - [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.3)
-- [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery
+- [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery (v1.0.2)
 - [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.4.0)
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
@@ -442,9 +442,10 @@ decommissioning, part of the medic-kit line. **Current release: v0.4.0.**
 ## Lazarus.exe — Backup, Restore & Recovery
 
 **"Dead isn't gone."** Sentinel's Windows backup, restore, and recovery
-tool — part of the medic-kit line. **In active development:** the four
-core phases are complete (411 tests); packaging and the first release
-come next.
+tool — part of the medic-kit line. **Current release: v1.0.2** — all
+five phases are complete, and it ships as a self-installing
+`Lazarus.exe` and a no-install `LazarusPortable.zip`, with
+`SHA256SUMS.txt` alongside both.
 
 1. **Restoration (the flagship)** — restore files, folders, or everything
    by date from a versioned snapshot store; undelete with honest per-file
