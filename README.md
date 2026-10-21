@@ -36,7 +36,7 @@ tools, plain language, honest limits.
 ### The medic-kit line
 
 - [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.3 — five-phase roadmap complete)
-- [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.1)
+- [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.3)
 - [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery
 - [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.4.0)
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
@@ -464,7 +464,7 @@ part of the Technician's Toolkit. Proprietary.
 ## Aegis.exe — File Encryption & Password Manager
 
 Sentinel's Windows shield: file encryption and a password manager in one
-tool. Tagline: **"It does not open."** **Current release: v1.0.1.**
+tool. Tagline: **"It does not open."** **Current release: v1.0.3.**
 
 - **File side** — AES-256 vaults, lock-and-send single-file encryption, and
   a strongbox for codes, keys, and notes. Aegis also encrypts Lazarus
