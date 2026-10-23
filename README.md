@@ -41,7 +41,7 @@ tools, plain language, honest limits.
 - [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.6.2)
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
-- [Sphinx](https://github.com/TheRealJesusTheHacker/Sphinx) — free ad & tracker blocker for Android, Windows & Debian (v1.0.0)
+- [Sphinx](https://github.com/TheRealJesusTheHacker/Sphinx) — free ad & tracker blocker for Android, Windows & Debian (v1.0.1)
 - [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v1.1.0)
 
 ### Systems & AI
@@ -428,7 +428,7 @@ own; its admin and review routes stay reachable only on the machine itself.
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Sphinx)](https://github.com/TheRealJesusTheHacker/Sphinx/releases)
 
 **"Every request gets questioned."** Sentinel's free system-wide ad
-and tracker blocker — **current release: v1.0.0.** Sphinx works at the
+and tracker blocker — **current release: v1.0.1.** Sphinx works at the
 DNS layer, on your own device: names on its built-in blocklist
 (71,491 domains) get a sinkhole answer, everything else is forwarded
 unchanged. It sees names only — never the contents of your
@@ -446,7 +446,7 @@ One shared filtering brain across three editions:
   never changes your DNS; engaging it is an explicit step.
 - **Android** — local VPN-mode filtering: no root, no remote servers,
   traffic never leaves the device. The edition is feature-complete
-  and audited; it is **not in the v1.0.0 release yet**, for one plain
+  and audited; it is **not in the v1.0.1 release either**, for one plain
   reason: a public APK must be signed with a release keystore that
   doesn't exist yet, and shipping the debug-signed build would be
   shipping the wrong thing.
@@ -458,7 +458,7 @@ otherwise, and Sphinx won't.
 
 **Get it:** the Windows installer, one-file app, and portable zip,
 plus the Debian package, from
-[releases](https://github.com/TheRealJesusTheHacker/Sphinx/releases/tag/v1.0.0),
+[releases](https://github.com/TheRealJesusTheHacker/Sphinx/releases/tag/v1.0.1),
 all covered by `SHA256SUMS.txt`. **MIT-licensed — anyone can use it
 as they wish.** Sphinx is the eighth member of the Technician's
 Toolkit; it joined the published bundle in bundle v1.1.0
