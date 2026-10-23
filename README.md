@@ -26,21 +26,22 @@ tools, plain language, honest limits.
 
 ### Security & education
 
-- [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.6)
+- [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.7)
 - [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
 - [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education)
-- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: 46-module course, game & Windows app (app-v1.0.4)
+- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: 46-module course, game & Windows app (app-v1.0.5)
 - [DogOS](https://github.com/TheRealJesusTheHacker/DogOS) — security & pentesting Linux distro
   - _Hint: #OpLint-Trap 2026_
 
 ### The medic-kit line
 
-- [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.3 — five-phase roadmap complete)
-- [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.3)
-- [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery (v1.0.2)
+- [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.5 — five-phase roadmap complete, passenger manifest in)
+- [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.5)
+- [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery (v1.0.3)
 - [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.6.2)
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
+- [Sphinx](https://github.com/TheRealJesusTheHacker/Sphinx) — free ad & tracker blocker for Android, Windows & Debian (v1.0.0)
 - [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v1.0.0)
 
 ### Systems & AI
@@ -60,13 +61,16 @@ before reuse.
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Argus.exe)](https://github.com/TheRealJesusTheHacker/Argus.exe/releases)
 
 Sentinel Safeguard's antivirus and malware detector — "all eyes,
-all detection." **Current release: v1.2.6.** Built for home users, single-PC
+all detection." **Current release: v1.2.7.** Built for home users, single-PC
 shops, and small businesses that need real protection without a per-seat
 enterprise contract. v1.2.3 shipped the fixes from the fleet-wide
-bug-and-security audit of 2026-10-19; the current release, v1.2.6,
-gives Argus its own peacock identity — abyssal teal-black, peacock
-emerald, eye bronze — a visual identity only: the detection engine
-is unchanged.
+bug-and-security audit of 2026-10-19; v1.2.6 gave Argus its own
+peacock identity — abyssal teal-black, peacock emerald, eye bronze —
+a visual identity only: the detection engine was unchanged. v1.2.7
+adds the scan entry point the packaged app never had:
+`Argus.exe scan <path>` runs a real scan through the same engine,
+with the same exit codes — no detection, scoring, calibration, or
+trust behaviour changes.
 
 **What it does:**
 - **Signature scanning** — known-malware detection against a curated signature
@@ -96,7 +100,8 @@ detection engine, heuristics, and encrypted vault.
 
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Charon.exe)](https://github.com/TheRealJesusTheHacker/Charon.exe/releases)
 
-**v1.0.3 — the five-phase roadmap is complete.** Charon ferries every driver
+**v1.0.5 — the five-phase roadmap is complete, and the passenger
+manifest has joined the crossing.** Charon ferries every driver
 on a Windows PC from the old version to the new one — carefully, one crossing
 at a time. Nobody crosses without paying the toll, and the toll is a restore
 point: created *and verified* before any update is applied. If the toll
@@ -118,6 +123,14 @@ Every update run follows the same fixed order:
 Driver updates are sourced through the Windows Update Agent API — never
 driver-download sites.
 
+**The passenger manifest** — Charon also writes the cargo record of a
+crossing: every driver the scan found, exactly as the inventory
+reported it, plus the run's download, toll, and apply records when
+they're on file (`python -m charon manifest`, or the window's *Save
+passenger manifest* button). A scan that could not hear from every
+source yields a manifest marked *not complete* — never a quietly
+padded one, and a failed export leaves no partial file behind.
+
 **The interface:** a premium, futuristic, animated HUD-style GUI (PySide6) —
 the whole crossing as one guided journey, in plain language, with designed
 screens for every failure state. A full CLI covers the same pipeline
@@ -125,10 +138,11 @@ screens for every failure state. A full CLI covers the same pipeline
 
 **Get it:** download `CharonPortable.zip` from
 [releases](https://github.com/TheRealJesusTheHacker/Charon.exe/releases)
-(v1.0.3, with `SHA256SUMS.txt`) — unzip it anywhere, open the `Charon`
+(v1.0.5, with `SHA256SUMS.txt`) — unzip it anywhere, open the `Charon`
 folder inside, and run `Charon.exe`. No install, and no Python on the
-machine; a single self-installing `Charon.exe` stays on the roadmap.
-The full test suite — 231 tests — is green; Windows on-hardware
+machine. Portable is the decided form: the single self-installing
+`Charon.exe` was considered and closed (2026-10-21).
+The full test suite — 251 tests — is green; Windows on-hardware
 verification comes next. Proprietary — see the repo's `LICENSE`.
 
 ---
@@ -271,7 +285,12 @@ Note: the repo also hosts `HellHound.py`, the original terminal-based tool (v2.0
 which performs **real** file deletion/encryption — controlled environments only,
 explicit permission required. The `.exe` is simulation-only.
 
-An education tool: it performs real malware actions, but every action is announced and visualized with warnings first — so you can watch exactly what real malware does, with nothing hidden.
+An education tool: the `.exe` *simulates* real malware actions —
+every action announced and visualized with warnings first — so you
+can watch exactly what real malware does, with nothing hidden and
+nothing real at risk. The real actions belong to `HellHound.py`
+alone: real deletion and encryption, announced the same way, for
+controlled environments only.
 
 **Get it:** Windows build from
 [releases](https://github.com/TheRealJesusTheHacker/Hellhound.exe/releases) — the
@@ -330,7 +349,7 @@ three parts:
   scenarios where you play the attacker to learn how each scam works, and
   every scenario closes with a Defense Brief on how to spot and stop it.
 - **The Windows app** — the same course on your PC, working offline.
-  **Current app release: app-v1.0.4** (`HackProof.exe`, with
+  **Current app release: app-v1.0.5** (`HackProof.exe`, with
   `SHA256SUMS.txt`, from
   [releases](https://github.com/TheRealJesusTheHacker/HackProof/releases)).
 
@@ -400,6 +419,49 @@ which can front the HackProof payments service (automated Bitcoin checkout
 and certificate issuance) so that service never needs a public port of its
 own; its admin and review routes stay reachable only on the machine itself.
 
+## Sphinx — Free Ad & Tracker Blocker
+
+[![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Sphinx)](https://github.com/TheRealJesusTheHacker/Sphinx/releases)
+
+**"Every request gets questioned."** Sentinel's free system-wide ad
+and tracker blocker — **current release: v1.0.0.** Sphinx works at the
+DNS layer, on your own device: names on its built-in blocklist
+(71,491 domains) get a sinkhole answer, everything else is forwarded
+unchanged. It sees names only — never the contents of your
+connections — and nothing is sent to us. No accounts, no subscription,
+no ads of our own.
+
+One shared filtering brain across three editions:
+
+- **Windows** — a tray-resident app and a proper installer. Your
+  original DNS settings are saved and verified before anything
+  changes, restored exactly when you turn Sphinx off — and the
+  uninstaller restores them *before* removing anything.
+- **Debian / Ubuntu / Kali / Parrot** — the same rules in a `.deb`,
+  under the same save-first / restore-exactly discipline: installing
+  never changes your DNS; engaging it is an explicit step.
+- **Android** — local VPN-mode filtering: no root, no remote servers,
+  traffic never leaves the device. The edition is feature-complete
+  and audited; it is **not in the v1.0.0 release yet**, for one plain
+  reason: a public APK must be signed with a release keystore that
+  doesn't exist yet, and shipping the debug-signed build would be
+  shipping the wrong thing.
+
+**The honest limit, up front:** Sphinx cannot remove ads served from
+the same address as the content itself — YouTube and YouTube Music
+are the famous case. No DNS or network blocker can honestly promise
+otherwise, and Sphinx won't.
+
+**Get it:** the Windows installer, one-file app, and portable zip,
+plus the Debian package, from
+[releases](https://github.com/TheRealJesusTheHacker/Sphinx/releases/tag/v1.0.0),
+all covered by `SHA256SUMS.txt`. **MIT-licensed — anyone can use it
+as they wish.** Sphinx is the eighth member of the Technician's
+Toolkit; it joins the published bundle with the bundle's next
+release.
+
+---
+
 ## Technician's Toolkit — The Medic-Kit Bundle
 
 Every Sentinel medic-kit tool in one USB-carried suite — **Security For
@@ -442,7 +504,7 @@ decommissioning, part of the medic-kit line. **Current release: v0.6.2.**
 ## Lazarus.exe — Backup, Restore & Recovery
 
 **"Dead isn't gone."** Sentinel's Windows backup, restore, and recovery
-tool — part of the medic-kit line. **Current release: v1.0.2** — all
+tool — part of the medic-kit line. **Current release: v1.0.3** — all
 five phases are complete, and it ships as a self-installing
 `Lazarus.exe` and a no-install `LazarusPortable.zip`, with
 `SHA256SUMS.txt` alongside both.
@@ -465,7 +527,7 @@ part of the Technician's Toolkit. Proprietary.
 ## Aegis.exe — File Encryption & Password Manager
 
 Sentinel's Windows shield: file encryption and a password manager in one
-tool. Tagline: **"It does not open."** **Current release: v1.0.3.**
+tool. Tagline: **"It does not open."** **Current release: v1.0.5.**
 
 - **File side** — AES-256 vaults, lock-and-send single-file encryption, and
   a strongbox for codes, keys, and notes. Aegis also encrypts Lazarus
@@ -474,10 +536,17 @@ tool. Tagline: **"It does not open."** **Current release: v1.0.3.**
   (Argon2id + AES-256-GCM), no forced cloud. Setup issues a printable
   recovery key, with the warning stated plainly: lose the master password
   and it does not open.
+- **Rollback tripwire (v1.0.5)** — Aegis remembers the newest state of
+  each vault on this computer in a small record kept *outside* the
+  vault — check values only, nothing about a vault's contents. Opening
+  a vault checks the record before any password work: a vault file
+  quietly rolled back to a state Aegis has already moved past is
+  refused, and a damaged record is refused too, never silently
+  replaced. The honest limits are stated in the repo's threat model.
 
 **Get it:** `Aegis.exe` installer or `AegisPortable.zip` (no install) from
 [releases](https://github.com/TheRealJesusTheHacker/Aegis.exe/releases),
-with `SHA256SUMS.txt`. 510 tests; v1.0.0 passed an independent security
+with `SHA256SUMS.txt`. 527 tests; v1.0.0 passed an independent security
 audit gate before release. Part of the Technician's Toolkit. Proprietary.
 
 ---
