@@ -142,7 +142,7 @@ screens for every failure state. A full CLI covers the same pipeline
 folder inside, and run `Charon.exe`. No install, and no Python on the
 machine. Portable is the decided form: the single self-installing
 `Charon.exe` was considered and closed (2026-10-21).
-The full test suite — 251 tests — is green; Windows on-hardware
+The full test suite — 253 tests — is green; Windows on-hardware
 verification comes next. Proprietary — see the repo's `LICENSE`.
 
 ---
@@ -554,11 +554,13 @@ audit gate before release. Part of the Technician's Toolkit. Proprietary.
 ## Supply chain
 
 Argus, HackProof, Aegis, NitroCore, VectorZip and ShibaCuddles releases
-ship with SHA256 checksums — verify before you run anything. Their release pipelines also generate signed
-build-provenance attestations with every build.
+ship with SHA256 checksums — verify before you run anything. The
+NitroCore, VectorZip and ShibaCuddles release pipelines also generate
+signed build-provenance attestations with every build.
 
-The released tools run CodeQL scanning, Dependabot updates, and SHA-pinned CI —
-the supply chain gets the same treatment as the code.
+NitroCore, VectorZip and ShibaCuddles run CodeQL scanning, Dependabot
+updates, and SHA-pinned CI — the supply chain gets the same treatment
+as the code.
 
 ## GitHub Achievements
 
