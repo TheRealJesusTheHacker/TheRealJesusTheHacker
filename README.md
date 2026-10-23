@@ -42,7 +42,7 @@ tools, plain language, honest limits.
 - [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
 - [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
 - [Sphinx](https://github.com/TheRealJesusTheHacker/Sphinx) — free ad & tracker blocker for Android, Windows & Debian (v1.0.0)
-- [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v1.0.0)
+- [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v1.1.0)
 
 ### Systems & AI
 
@@ -457,21 +457,22 @@ plus the Debian package, from
 [releases](https://github.com/TheRealJesusTheHacker/Sphinx/releases/tag/v1.0.0),
 all covered by `SHA256SUMS.txt`. **MIT-licensed — anyone can use it
 as they wish.** Sphinx is the eighth member of the Technician's
-Toolkit; it joins the published bundle with the bundle's next
-release.
+Toolkit; it joined the published bundle in bundle v1.1.0
+(2026-10-23).
 
 ---
 
 ## Technician's Toolkit — The Medic-Kit Bundle
 
 Every Sentinel medic-kit tool in one USB-carried suite — **Security For
-Everyone.** **Current bundle: v1.0.0.**
+Everyone.** **Current bundle: v1.1.0.**
 
 One zip opens to **one folder** holding every portable edition — Argus,
-Charon, Lazarus, Beerus, Aegis, NitroCore, VectorZip — plus a suite
+Charon, Lazarus, Beerus, Aegis, NitroCore, VectorZip, Sphinx — plus a suite
 application that gives one GUI over the whole kit. The launcher is a
 front door, never a replacement: every tool still stands on its own.
-(Bundle 1.0 — the complete kit — shipped 2026-10-20.)
+(Bundle 1.0 — the complete kit — shipped 2026-10-20; bundle 1.1.0,
+with Sphinx in as the eighth tool, shipped 2026-10-23.)
 
 [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit)
 
