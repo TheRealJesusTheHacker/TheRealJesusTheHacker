@@ -26,7 +26,7 @@ tools, plain language, honest limits.
 
 ### Security & education
 
-- [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.8)
+- [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.9)
 - [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
 - [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education)
 - [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: 46-module course, game & Windows app (app-v1.0.5)
@@ -61,7 +61,7 @@ before reuse.
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Argus.exe)](https://github.com/TheRealJesusTheHacker/Argus.exe/releases)
 
 Sentinel Safeguard's antivirus and malware detector — "all eyes,
-all detection." **Current release: v1.2.8.** Built for home users, single-PC
+all detection." **Current release: v1.2.9.** Built for home users, single-PC
 shops, and small businesses that need real protection without a per-seat
 enterprise contract. v1.2.3 shipped the fixes from the fleet-wide
 bug-and-security audit of 2026-10-19; v1.2.6 gave Argus its own
