@@ -446,10 +446,10 @@ One shared filtering brain across three editions:
   never changes your DNS; engaging it is an explicit step.
 - **Android** — local VPN-mode filtering: no root, no remote servers,
   traffic never leaves the device. The edition is feature-complete
-  and audited; it is **not in the v1.0.1 release either**, for one plain
-  reason: a public APK must be signed with a release keystore that
-  doesn't exist yet, and shipping the debug-signed build would be
-  shipping the wrong thing.
+  and audited; it is **not in the v1.0.1 release either**. The release
+  key now exists (generated 2026-10-23) — the signed APK ships once
+  the Android build's on-device acceptance pass is complete, and
+  shipping the debug-signed build would be shipping the wrong thing.
 
 **The honest limit, up front:** Sphinx cannot remove ads served from
 the same address as the content itself — YouTube and YouTube Music
