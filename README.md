@@ -15,8 +15,8 @@ tools, plain language, honest limits.
   written authorization in place before any testing begins.
 - **IT services** — support, setup, and troubleshooting.
 - **Installations** — security and low-voltage installation work.
-- **Education** — security training and educational tools, including HackProof
-  (below).
+- **Education** — security training and educational tools, including Sentinel
+  Academy.
 - **Data recovery & restoration** — file and folder restoration, undelete,
   and salvage from failing drives (Lazarus).
 - **Secure drive destruction** — verified sanitization for decommissioned
@@ -26,33 +26,34 @@ tools, plain language, honest limits.
 
 ### Security & education
 
-- [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.9)
-- [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite
-- [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education)
-- [HackProof](https://github.com/TheRealJesusTheHacker/HackProof) — cybersecurity education: 46-module course, game & Windows app (app-v1.0.5)
-- [DogOS](https://github.com/TheRealJesusTheHacker/DogOS) — security & pentesting Linux distro
+- [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.14)
+- [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite (v0.3.7)
+- [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education) (visual-demo-v1.4)
+- [Sentinel Academy](https://academy.sentinelsafeguard.net) — Sentinel Safeguard's security education: a free Best Practice track and a paid Expert track. Its predecessor, HackProof, was folded into Sentinel Academy.
+- [DogOS](https://github.com/TheRealJesusTheHacker/DogOS) — security & pentesting Linux distro (v0.1.2 prerelease)
   - _Hint: #OpLint-Trap 2026_
 
 ### The medic-kit line
 
-- [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.5 — five-phase roadmap complete, passenger manifest in)
-- [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.5)
-- [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery (v1.0.3)
-- [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.6.2)
-- [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer
-- [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor
+- [Charon.exe](https://github.com/TheRealJesusTheHacker/Charon.exe) — Windows driver updater (v1.0.6 — five-phase roadmap complete, passenger manifest in)
+- [Aegis.exe](https://github.com/TheRealJesusTheHacker/Aegis.exe) — file encryption & password manager (v1.0.6)
+- [Lazarus.exe](https://github.com/TheRealJesusTheHacker/Lazarus.exe) — backup, restore & data recovery (v1.0.5)
+- [Beerus.exe](https://github.com/TheRealJesusTheHacker/Beerus.exe) — secure drive destruction (v0.6.4)
+- [NitroCore](https://github.com/TheRealJesusTheHacker/NitroCore) — Windows system optimizer (v1.1.7 — published on winget as TheRealJesusTheHacker.NitroCore)
+- [VectorZip](https://github.com/TheRealJesusTheHacker/VectorZip) — lossless file compressor (v1.2.12)
 - [Sphinx](https://github.com/TheRealJesusTheHacker/Sphinx) — free ad & tracker blocker for Android, Windows & Debian (v1.0.1)
-- [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v1.2.0)
+- [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit) — the medic-kit bundle: every portable edition in one folder (v1.3.1)
 
 ### Systems & AI
 
-- [Cyra-Helper](https://github.com/TheRealJesusTheHacker/Cyra-Helper) — donate idle GPU time to a local AI
-- [sentinel-live](https://github.com/TheRealJesusTheHacker/sentinel-live) — server side of the Sentinel Safeguard website (v1.0.3)
-- [lint-trap](https://github.com/TheRealJesusTheHacker/lint-trap) — household notes on dryer lint trap maintenance
+- Cyra — private local AI (private repo; latest app release v0.12.15)
+- [Cyra-Helper](https://github.com/TheRealJesusTheHacker/Cyra-Helper) — donate idle GPU time to a local AI (v0.1.3)
+- [OffLeash-Music](https://github.com/TheRealJesusTheHacker/OffLeash-Music) — OffLeash Music, a Cyberdogs-branded YouTube Music client for Android: "YouTube but ad free and able to play in the background" (v0.8.4 prerelease, via GitHub Releases)
+- [sentinel-live](https://github.com/TheRealJesusTheHacker/sentinel-live) — server side of the Sentinel Safeguard website (v1.0.5)
+- [lint-trap](https://github.com/TheRealJesusTheHacker/lint-trap) — household notes on dryer lint trap maintenance (v0.1.0)
 Licensing varies by project and is stated in each repository: some tools
-below are open source (noted per project), while HackProof and most
-Sentinel Safeguard products are proprietary. Check each repo's `LICENSE`
-before reuse.
+below are open source (noted per project), while most Sentinel Safeguard
+products are proprietary. Check each repo's `LICENSE` before reuse.
 
 ---
 
@@ -61,7 +62,7 @@ before reuse.
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Argus.exe)](https://github.com/TheRealJesusTheHacker/Argus.exe/releases)
 
 Sentinel Safeguard's antivirus and malware detector — "all eyes,
-all detection." **Current release: v1.2.9.** Built for home users, single-PC
+all detection." **Current release: v1.2.14.** Built for home users, single-PC
 shops, and small businesses that need real protection without a per-seat
 enterprise contract. v1.2.3 shipped the fixes from the fleet-wide
 bug-and-security audit of 2026-10-19; v1.2.6 gave Argus its own
@@ -75,6 +76,12 @@ trust behaviour changes. v1.2.8 adds archive scanning: ZIP and TAR
 the same engine under shared budgets (512 members, 256 MB extracted,
 3 levels of nesting), and an archive that cannot be fully checked is
 reported not fully scanned — never clean, never silently skipped.
+v1.2.14 is a launch-crash field fix: a scan-history database that
+cannot be opened no longer takes the app down at startup — history
+opens through a recovery ladder (configured location, then the
+standard app-data location, then an in-memory history for the
+session), reads as honest zeroes/empty when it has to move, and no
+detection, scoring, or verdict behaviour changes.
 
 **What it does:**
 - **Signature scanning** — known-malware detection against a curated signature
@@ -104,8 +111,11 @@ detection engine, heuristics, and encrypted vault.
 
 [![release](https://img.shields.io/github/v/release/TheRealJesusTheHacker/Charon.exe)](https://github.com/TheRealJesusTheHacker/Charon.exe/releases)
 
-**v1.0.5 — the five-phase roadmap is complete, and the passenger
-manifest has joined the crossing.** Charon ferries every driver
+**v1.0.6 — the five-phase roadmap is complete, and the passenger
+manifest has joined the crossing.** v1.0.6 is a supply-chain patch
+release: release builds now install from a hash-locked dependency
+set (`pip install --require-hashes`), and the crossing's order —
+Scan → Download → Restore point → Apply — is unchanged. Charon ferries every driver
 on a Windows PC from the old version to the new one — carefully, one crossing
 at a time. Nobody crosses without paying the toll, and the toll is a restore
 point: created *and verified* before any update is applied. If the toll
@@ -142,12 +152,13 @@ screens for every failure state. A full CLI covers the same pipeline
 
 **Get it:** download `CharonPortable.zip` from
 [releases](https://github.com/TheRealJesusTheHacker/Charon.exe/releases)
-(v1.0.5, with `SHA256SUMS.txt`) — unzip it anywhere, open the `Charon`
+(v1.0.6, with `SHA256SUMS.txt`) — unzip it anywhere, open the `Charon`
 folder inside, and run `Charon.exe`. No install, and no Python on the
 machine. Portable is the decided form: the single self-installing
 `Charon.exe` was considered and closed (2026-10-21).
-The full test suite — 253 tests — is green; Windows on-hardware
-verification comes next. Proprietary — see the repo's `LICENSE`.
+The full suite passes (251 passed, 2 skipped in the v1.0.6 release
+run); the crossing still awaits its first real Windows PC run.
+Proprietary — see the repo's `LICENSE`.
 
 ---
 
@@ -160,6 +171,9 @@ and ships with settings that favor battery life over speed. NitroCore cleans the
 junk, quiets the background noise, and flips the right switches — from one simple
 dashboard. You don't need to know what the registry is. Pick a profile, hit a
 button, let it work.
+
+**Current release: v1.1.7** — a dependency-maintenance release; no
+optimizer behavior changes from v1.1.6.
 
 **What it does:**
 - **One-click Gaming & Cybersecurity profiles** — Gaming goes aggressive for max
@@ -206,6 +220,9 @@ Corruption is never silent: every 64 KiB chunk carries a CRC32 that is verified 
 decompression, so a truncated or damaged archive fails loudly instead of quietly
 handing you bad data.
 
+**Current release: v1.2.12** — a publish-pipeline security patch; no
+format change and no behaviour change from v1.2.11.
+
 **What it does:**
 - **Truly lossless** — decompressing a `.vzip` file returns byte-identical data,
   verified by round-trip tests. Never "close enough."
@@ -238,6 +255,8 @@ want a clean compression API; anyone who's been burned by silent corruption.
 A fast, multi-threaded network scanner with a dark PyQt6 GUI dashboard and a full
 CLI. Point it at a network you own and it maps what's alive, what's open, and
 what's running — then hands you the results in JSON, CSV, XML, or plain text.
+
+**Current release: v0.3.7.**
 
 **What it does:**
 - **Device discovery** — ICMP ping sweep, ARP scanning, hostname resolution,
@@ -297,7 +316,8 @@ alone: real deletion and encryption, announced the same way, for
 controlled environments only.
 
 **Get it:** Windows build from
-[releases](https://github.com/TheRealJesusTheHacker/Hellhound.exe/releases) — the
+[releases](https://github.com/TheRealJesusTheHacker/Hellhound.exe/releases) —
+current release: visual-demo-v1.4. The
 release pipeline generates a signed build-provenance attestation with every build.
 
 **Who it's for:** educators, students, and security-awareness training — anyone who
@@ -307,9 +327,10 @@ wants to watch a ransomware kill chain unfold with zero risk.
 
 ## DogOS — Pentesting Linux Distro
 
-**In development** — v0.1.1 "Doberman" prerelease is out now (complete project
-source: live-build tree, helper packages, design spec, security review, OSINT
-inventory). No bootable ISO yet — the full build needs real hardware.
+**In development** — v0.1.2 prerelease is out now (source-only snapshot:
+live-build tree, helper packages, design spec, security review, OSINT
+inventory). No bootable ISO yet — DogOS has not been built or booted;
+the full build needs real hardware.
 
 **"All Dogs Go To Heaven."** DogOS is a security and penetration-testing Linux
 distribution built from scratch on Debian testing, with a Kali-style rolling
@@ -337,41 +358,17 @@ enough.
 
 ---
 
-## HackProof — Cybersecurity Education
+## Sentinel Academy — Security Education
 
-A commercial cybersecurity-education product from Sentinel Safeguard, in
-three parts:
+Sentinel Academy is Sentinel Safeguard's current security-education
+product, live at
+[academy.sentinelsafeguard.net](https://academy.sentinelsafeguard.net).
+It offers a free Best Practice track and a paid Expert track, with
+Academy-only accounts, server-enforced in-order completion, and
+certificates honestly labeled as not accredited.
 
-- **The Course** — a 46-module defensive field manual across 7 tracks,
-  covering passwords and MFA, phishing, social engineering, device
-  security, scams, and recovery — plus a professional-pathways track built
-  on the Sentinel Safeguard Credential Standard. Every module states its
-  learning objectives and carries worked case breakdowns, step-by-step
-  procedures, a hands-on exercise, and a knowledge check. The first 3
-  modules are free; the rest are premium.
-- **The Game** — *You Are The Scammer*: a single-player browser game with 8
-  scenarios where you play the attacker to learn how each scam works, and
-  every scenario closes with a Defense Brief on how to spot and stop it.
-- **The Windows app** — the same course on your PC, working offline.
-  **Current app release: app-v1.0.5** (`HackProof.exe`, with
-  `SHA256SUMS.txt`, from
-  [releases](https://github.com/TheRealJesusTheHacker/HackProof/releases)).
-
-**The final exam and certificate:** finish the course and sit a 90-question
-final exam (pass at 80%). The Sentinel Safeguard Certificate of Completion
-generates on the page, and the official countersigned certificate is emailed
-to you and checkable by anyone at the public verify page. The Sentinel
-green certificate design is applied consistently across the website, the
-app, and the certificates themselves.
-
-Honest limits, stated in the repo: the course teaches the knowledge domains
-the certifications in the Sentinel credential standard test, and builds
-toward them — it does not confer any certification or license, and never
-guarantees passing an external exam.
-
-**Play it / start the course:** https://therealjesusthehacker.github.io/HackProof/
-
-Proprietary — see the repo's `LICENSE`.
+Its predecessor, HackProof, was folded into Sentinel Academy and is
+no longer a current product.
 
 ---
 
@@ -388,7 +385,8 @@ commands from exactly one human — guests get conversation, never control.
 snapshot her data and verify it afterward, and any difference fails the
 update. Debugging ships permanently in every release.
 
-Cyra is in active development. The public way to help her is
+Cyra is in active development (latest app release: v0.12.15). The
+public way to help her is
 [Cyra-Helper](https://github.com/TheRealJesusTheHacker/Cyra-Helper) (next
 section), which donates idle GPU time to her rendering.
 
@@ -403,25 +401,40 @@ return, and can be paused at any time. It receives render prompts and returns
 finished images — it never sees your files. Joining requires
 [Tailscale](https://tailscale.com/download) (free).
 
-**Get it:** download the latest zip from
+**Get it:** download the latest zip (current release: v0.1.3) from
 [releases](https://github.com/TheRealJesusTheHacker/Cyra-Helper/releases),
 unzip, and run `CyraHelper.exe`.
+
+---
+
+## OffLeash Music — YouTube Music Client for Android
+
+OffLeash Music is a Cyberdogs-branded YouTube Music client for
+Android — in its own words, "YouTube but ad free and able to play in
+the background."
+
+**Current release: v0.8.4** (prerelease, published 2026-10-31).
+GitHub Releases are now its download channel — get it from
+[releases](https://github.com/TheRealJesusTheHacker/OffLeash-Music/releases).
+Sign-in uses the Google device-code flow.
 
 ---
 
 ## sentinel-live — Sentinel Safeguard Website Server
 
 The server side of the Sentinel Safeguard website, packaged as a single
-self-contained Windows executable. **Current release: v1.0.3**
+self-contained Windows executable. **Current release: v1.0.5**
 (`SentinelLive.exe`, with `SHA256SUMS.txt`, from
 [releases](https://github.com/TheRealJesusTheHacker/sentinel-live/releases)).
 It serves the public site, a live cyber threat map fed by the SANS DShield
 sensor network, a news hub, and the website's contact, help-ticket, and
-newsletter form APIs backed by an embedded SQLite database. v1.0.3 also
-carries the optional HackProof payments pass-through — off by default —
-which can front the HackProof payments service (automated Bitcoin checkout
-and certificate issuance) so that service never needs a public port of its
-own; its admin and review routes stay reachable only on the machine itself.
+newsletter form APIs backed by an embedded SQLite database. v1.0.5 is
+the Fleet Sweep #6 security release: secret-bearing config values are
+never logged — only their type — and the access split is unchanged:
+the public site and its read APIs are public, while /admin, /news,
+/status, and /health refuse unauthenticated requests in the app
+itself. This app does not serve Sentinel Command in any form, and the
+HackProof payments pass-through remains off.
 
 ## Sphinx — Free Ad & Tracker Blocker
 
@@ -469,14 +482,20 @@ Toolkit; it joined the published bundle in bundle v1.1.0
 ## Technician's Toolkit — The Medic-Kit Bundle
 
 Every Sentinel medic-kit tool in one USB-carried suite — **Security For
-Everyone.** **Current bundle: v1.2.0.**
+Everyone.** **Current bundle: v1.3.1.**
 
 One zip opens to **one folder** holding every portable edition — Argus,
 Charon, Lazarus, Beerus, Aegis, NitroCore, VectorZip, Sphinx — plus a suite
 application that gives one GUI over the whole kit. The launcher is a
 front door, never a replacement: every tool still stands on its own.
 (Bundle 1.0 — the complete kit — shipped 2026-10-20; bundle 1.1.0,
-with Sphinx in as the eighth tool, shipped 2026-10-23.)
+with Sphinx in as the eighth tool, shipped 2026-10-23; bundle v1.3.1
+shipped 2026-10-25, rebuilt with VectorZip v1.2.12 — the other seven
+members are exactly as in bundle v1.3.0.)
+
+**Winget:** NitroCore is published on winget (package
+`TheRealJesusTheHacker.NitroCore`). The other Toolkit members are in
+the winget pipeline, not yet published.
 
 [Technicians-Toolkit](https://github.com/TheRealJesusTheHacker/Technicians-Toolkit)
 
@@ -485,7 +504,8 @@ with Sphinx in as the eighth tool, shipped 2026-10-23.)
 ## Beerus.exe — Secure Drive Destruction
 
 Named for the God of Destruction: verified drive sanitization for
-decommissioning, part of the medic-kit line. **Current release: v0.6.2.**
+decommissioning, part of the medic-kit line. **Current release: v0.6.4** —
+a supply-chain patch release; no gate, engine, method, or wording change.
 
 - **Three target modes** — whole drives; specific files/folders (data
   overwritten and verified *before* the entry is removed — never mere
@@ -502,15 +522,18 @@ decommissioning, part of the medic-kit line. **Current release: v0.6.2.**
 
 **Get it:** Beerus Portable from
 [releases](https://github.com/TheRealJesusTheHacker/Beerus.exe/releases).
-705 tests, green on Linux and Windows CI. Proprietary.
+The full suite passes (767 passed, 1 skipped in the v0.6.4 release
+run). Proprietary.
 
 ---
 
 ## Lazarus.exe — Backup, Restore & Recovery
 
 **"Dead isn't gone."** Sentinel's Windows backup, restore, and recovery
-tool — part of the medic-kit line. **Current release: v1.0.3** — all
-five phases are complete, and it ships as a self-installing
+tool — part of the medic-kit line. **Current release: v1.0.5** — all
+five phases are complete. v1.0.5 is a supply-chain patch release (no
+behaviour change from v1.0.4; release builds install from a
+hash-locked dependency set), and it ships as a self-installing
 `Lazarus.exe` and a no-install `LazarusPortable.zip`, with
 `SHA256SUMS.txt` alongside both.
 
@@ -532,7 +555,9 @@ part of the Technician's Toolkit. Proprietary.
 ## Aegis.exe — File Encryption & Password Manager
 
 Sentinel's Windows shield: file encryption and a password manager in one
-tool. Tagline: **"It does not open."** **Current release: v1.0.5.**
+tool. Tagline: **"It does not open."** **Current release: v1.0.6** —
+a maintenance release with no behavior changes from v1.0.5;
+dependency installs are now hash-locked.
 
 - **File side** — AES-256 vaults, lock-and-send single-file encryption, and
   a strongbox for codes, keys, and notes. Aegis also encrypts Lazarus
@@ -558,7 +583,7 @@ audit gate before release. Part of the Technician's Toolkit. Proprietary.
 
 ## Supply chain
 
-Argus, HackProof, Aegis, NitroCore, VectorZip and ShibaCuddles releases
+Argus, Aegis, NitroCore, VectorZip and ShibaCuddles releases
 ship with SHA256 checksums — verify before you run anything. The
 NitroCore, VectorZip and ShibaCuddles release pipelines also generate
 signed build-provenance attestations with every build.
