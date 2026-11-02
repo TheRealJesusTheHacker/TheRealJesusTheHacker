@@ -29,7 +29,7 @@ tools, plain language, honest limits.
 - [Argus.exe](https://github.com/TheRealJesusTheHacker/Argus.exe) — antivirus & malware detection for Windows and Linux (v1.2.14)
 - [ShibaCuddles](https://github.com/TheRealJesusTheHacker/ShibaCuddles) — network scanner & security testing suite (v0.3.7)
 - [Hellhound.exe](https://github.com/TheRealJesusTheHacker/Hellhound.exe) — ransomware kill-chain simulator (education) (visual-demo-v1.4)
-- [Sentinel Academy](https://academy.sentinelsafeguard.net) — Sentinel Safeguard's security education: a free Best Practice track and a paid Expert track. Its predecessor, HackProof, was folded into Sentinel Academy.
+- [Sentinel Academy](https://academy.sentinelsafeguard.net) — Sentinel Safeguard's security education: a free Best Practice track and a paid Expert track (renamed Sentinel Academy on 2026-11-02).
 - [DogOS](https://github.com/TheRealJesusTheHacker/DogOS) — security & pentesting Linux distro (v0.1.2 prerelease)
   - _Hint: #OpLint-Trap 2026_
 
@@ -367,8 +367,8 @@ It offers a free Best Practice track and a paid Expert track, with
 Academy-only accounts, server-enforced in-order completion, and
 certificates honestly labeled as not accredited.
 
-Its predecessor, HackProof, was folded into Sentinel Academy and is
-no longer a current product.
+Sentinel Academy is the current product (the rename to
+Sentinel Academy was completed on 2026-11-02).
 
 ---
 
@@ -434,7 +434,7 @@ never logged — only their type — and the access split is unchanged:
 the public site and its read APIs are public, while /admin, /news,
 /status, and /health refuse unauthenticated requests in the app
 itself. This app does not serve Sentinel Command in any form, and the
-HackProof payments pass-through remains off.
+Sentinel Academy payments pass-through remains off.
 
 ## Sphinx — Free Ad & Tracker Blocker
 
